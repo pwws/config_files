@@ -1,0 +1,51 @@
+{
+    "editor.fontSize": 15,
+    "debug.console.fontSize": 15,
+    "markdown.preview.fontSize": 18,
+    "terminal.integrated.fontSize": 15,
+    "workbench.preferredDarkColorTheme": "Default Light+",
+    "editor.cursorBlinking": "solid",
+    "workbench.editor.enablePreview": false,
+    "files.associations": {
+        "*.tpp": "cpp"
+    },
+    "diffEditor.wordWrap": "on",
+    "explorer.confirmDragAndDrop": false,
+    "editor.wordWrap": "on",
+    "vim.handleKeys": {
+        "<C-f>": false,
+        "<C-d>": true
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/home/pawel/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "latex-workshop.view.pdf.viewer": "tab",
+    "python.languageServer": "Pylance",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "window.zoomLevel": 1,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "workbench.colorTheme": "Default Light+",
+    "C_Cpp.autoAddFileAssociations": false,
+    "C_Cpp.autocomplete": "Disabled",
+    "clangd.path": "/home/pawel/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/bin/clangd",
+    "clangd.detectExtensionConflicts": true,
+    "clangd.semanticHighlighting": true,
+    "clangd.onConfigChanged": "prompt",
+    "clangd.arguments": [
+        "--all-scopes-completion", 
+        "--background-index",
+        "--clang-tidy",
+        "--completion-style=bundled",
+        "--header-insertion=iwyu",
+        "--inlay-hints",
+        "-j=14"
+    ]
+}
